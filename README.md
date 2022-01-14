@@ -2,6 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Petland Project Description
+
+This is a personal Project using reactjs to buoild a platform that utilizes external api to show adoptable pets in the county, state or city, based on the users preference. It does not require any user authentication or profile creation it's an application meant to provide ease in the adoption process of pets.
+
+### Project Images
+
+Homepage
+![homeepage](https://user-images.githubusercontent.com/54692909/149567384-e71107f0-aa7a-491d-9802-51c7000dff3b.JPG)
+
+Contactpage
+![contactpage](https://user-images.githubusercontent.com/54692909/149567468-53e7a94b-6b09-4515-8a0e-9982259f07a8.JPG)
+
+Blogpage
+![blogpage](https://user-images.githubusercontent.com/54692909/149567520-cf88f811-5939-4896-bb8a-a59f925a7fc5.JPG)
+
+Adoption Portal Images
+![adopt1](https://user-images.githubusercontent.com/54692909/149567591-81529a9f-eda1-44b5-8be4-6009a9b5b056.JPG)
+
+![adopt2](https://user-images.githubusercontent.com/54692909/149567624-2f6b714b-b9a7-4730-8b97-2287ef8200f3.JPG)
+
+![adopt3](https://user-images.githubusercontent.com/54692909/149567653-95cbb101-d4f2-4504-88a5-ab2054bad8e4.JPG)
+
 ## Available Scripts
 
 In the project directory, you can run:
