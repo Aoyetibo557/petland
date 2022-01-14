@@ -1,0 +1,487 @@
+/* Homepage Styling */
+.homepage {
+}
+
+
+
+.homepage__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.homepage__div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.homepage__tagline {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    /* animation: App-logo-spin infinite 20s linear; */
+}
+
+.tagline__h4 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Syncopate', sans-serif;
+}
+
+.tagline__p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.tagline__link{
+    padding: 10px;
+    color: #fff;
+    background-color: #457B9D;
+    text-decoration: none;
+    font-weight: 800;
+    width: 10vw;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 7px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.homepage__img {
+    width: 60vw;
+    height: 600px;
+    object-fit: contain;
+}
+
+.homepage__bar{ 
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bar__h4 {
+    font-size: 1.9rem;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.bar__p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.homepage__mid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.mid__img {
+    width: 30vw;
+    height: 25vw;
+    object-fit: contain;
+}
+
+.homepage__mid div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.homepage__mid div h4 {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 5px;
+
+}
+
+.homepage__mid div p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+.homepage__footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.link{
+    padding: 10px;
+    color: #fff;
+    background-color: #457B9D;
+    text-decoration: none;
+    font-weight: 800;
+    width: 10vw;
+    text-align: center;
+    border-radius: 7px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Blogpage styles */
+
+.blogpage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.blogpage__container {
+    margin-top: 20px;
+}
+
+.blogpage__topdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.blogpage__img {
+    width: 30vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.blogpage__topdiv div {
+    width: 30%;
+}
+.blogpage__topdiv div h4 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 2rem;
+
+}
+
+/* contact page styles */
+.contactpage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+
+}
+
+.contactpage__container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+}
+
+.contactpage__container h4 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Syncopate', sans-serif;
+
+}
+
+.contactpage__container__topdiv {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    
+}
+
+.contactpage__container__topdiv p {
+    font-size: 3rem;
+    font-weight: 500;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+    word-spacing: 5px;
+
+}
+
+.contactpage__input {
+    border: none;
+    font-size: 2.7rem;
+    width: 18vw;
+    border-bottom: .9px solid #888;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.contactpage__input:placeholder-shown {
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contactpage__select {
+    border: none;
+    font-size: 2.2rem;
+    width: 18vw;
+    border-bottom: .9px solid #888;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.terms__div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.terms__div input[type="checkbox"] {
+    height: 22px;
+    width: 22px;
+}
+
+.terms__div input[type="checkbox"]:checked::after {
+    color:blue;
+}
+
+
+.terms__div label {
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 10px;
+    font-weight: 500;
+
+}
+
+
+
+.contactpage__btn {
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 15px;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    background-color: #457B9D;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.contactpage__btn:hover {
+    transform: scale(1.09);
+}
+
+.contactpage__btn:active{
+    transform: scale(0.80);
+    transition: all ease-in;
+
+}
+
+.contactpage__middiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: #EFD09E; */
+}
+
+.contactpage__middiv-div {
+    display: flex;
+    flex-direction: row !important;
+}
+.contactpage__middiv div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middiv__img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 999px;
+    border: .7px solid rgba(51, 51, 51, 0.247);
+}
+
+
+.contactpage__middiv div h4,
+.contactpage__middiv div p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.error {
+    color: #EB5E55;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.contactpage__success { 
+    display: flex;
+    flex-direction: column;
+}
+
+.contactpage__success p {
+    font-size: 2.3rem;
+    font-weight: 500;
+    font-family: 'Syncopate', sans-serif;
+}
+
+
+/* Adoptpage styles */
+
+.adoptpage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.adoptpage__welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+
+}
+
+.adoptpage__welcome h4 {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Syncopate', sans-serif;
+
+}
+
+.adoptpage__welcome p {
+    font-size: 1.9rem;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.adoptpage__portal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Pets catalouge style */
+
+.petscatalouge__pet {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 12px;
+    place-items: center;
+}
+
+.petscatalouge__error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.petscatalouge__error h3 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    font-family: 'Syncopate', sans-serif;
+
+}
+
+.petscatalouge__error p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+/* blogdetails styles */
+
+.blogdetails{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.blogdetails__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    height: 130vh;
+}
+
+.blogdetails__title {
+    font-size: 2.6rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.blogdetails__published {
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.blogdetails__published span {
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Syncopate', sans-serif;
+    
+}
+
+.blogdetails__container div {
+    margin-bottom: 0px;
+}
+
+.blogdetails__img {
+    width: 50vw;
+}
+
+.blogdetails__content {
+    width: 50vw;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    word-spacing: 2px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.blogdetails__subtitle {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.blogdetails__btm {
+}

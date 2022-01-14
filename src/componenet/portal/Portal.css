@@ -1,0 +1,99 @@
+
+.portal {
+    display: flex;
+    flex-direction: column;
+}
+
+.portal__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.portal__top h3 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    font-family: 'Syncopate', sans-serif;
+
+}
+
+.portal__top h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.portal__btn__div {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.portal__btn {
+    width: 12vw;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    background-color: #457B9D;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    opacity: 0.5;
+    text-decoration: none;
+    text-align: center;
+}
+
+.portal__btn:hover {
+    opacity: 1;
+    transform: scale(1.09);
+    transition: all ease-in 0.2s;
+}
+
+.portal__btn .active {
+    opacity: 1;
+    background-color: #457B9D;
+
+}
+
+.hide {
+    display: none;
+}
+
+.portal__questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.portal__questions__div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.portal__questions__div p {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Syncopate', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+}
+.portal__radio {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.portal__radio label {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+
+}
