@@ -16,7 +16,7 @@ function HomePage() {
                         <p className='tagline__p'>Adopt a pet and find a soul to give and recieve unconditional love from. 
                             See our collection of adorable pets that are ready to recieve and give some love.
                         </p>
-                        <Link to="/" className='tagline__link'>Get Started</Link>
+                        <Link to="/adopt" className='tagline__link'>Get Started</Link>
                     </div>
                     <div>
                         <img className='homepage__img' src={DogImage} alt="Pets" />

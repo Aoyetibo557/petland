@@ -5,3 +5,12 @@
     grid-template-columns: auto auto;
     place-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+    .blogtable {
+        display: grid;
+        grid-template-columns: auto;
+        place-items: center;
+        padding: 10px;
+    }
+}

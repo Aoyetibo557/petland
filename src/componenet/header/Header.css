@@ -1,5 +1,5 @@
 
-.header {
+.header__nav {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -43,5 +43,20 @@
 
 .active__link {
     border-bottom: 2px solid #457B9D;
+
+}
+
+.menu {
+    display: none;
+}
+
+@media only screen and (max-width: 765px) {
+    .header__nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
 
 }

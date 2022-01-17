@@ -52,3 +52,25 @@
     font-size: 14px;
     font-family: 'Quicksand', sans-serif;
 }
+
+@media only screen and (max-width: 768px) {
+    .homebar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+        width: 90vw;
+    }
+
+    .homebar__btn {
+        border-bottom: .7px solid #fff;
+    }
+
+    .homebar__input {
+        height: 200px;
+        padding: 0;
+        padding-left: 20px;
+        border-bottom: .7px solid #fff;
+        
+    }
+}
